@@ -1,12 +1,12 @@
-# 🌹 Flowers & Lunar Mission 🌙
+# 🌹 A Rose Garden
 
-An interactive digital garden of procedural blooming flowers and a cinematic interactive lunar mission.
+An interactive digital garden of procedural blooming roses and sunflowers.
 
 ## ✨ Features
+- Procedural SVG blooming flowers (roses & sunflowers) that never wilt.
+- Multiple garden themes: `Night Garden`, `Love Letter`, `Starry Blueprint`, `Code of Love`.
+- Customizable dedications, romantic presets, and line counters.
+- One-click share via WhatsApp, clipboard copy, and Web Share API.
 
-- **🌹 A Rose Garden (`index.html`):** Procedural blooming SVG roses and sunflowers with customizable styles (`garden`, `paper`, `blueprint`, `code`), romantic templates, custom dedication messages, and instant sharing (WhatsApp / clipboard).
-- **🌙 Mission: Get Her The Moon (`get-her-to-the-moon.html`):** Interactive cinematic rocket launch sequence with sound effects, space voyage, procedural billowing smoke clouds, a rising realistic 3D NASA Mega Moon, and interactive touchdown confirmation with supernova starburst effects.
-
-## 🚀 Live Demo & Hosting
-
+## 🚀 Deployment
 Ready to deploy on **Netlify**, **Vercel**, or **GitHub Pages** with zero configuration.
