@@ -1301,7 +1301,6 @@
     <div id="vignette"></div>
     <div id="fall"></div>
     <div id="focus"></div>
-
     <div id="msg">
       <div id="eyebrow" class="rise"></div>
       <span id="to" class="rise"></span>
@@ -1314,11 +1313,6 @@
       <div id="l2"></div>
     </div>
   </div>
-
-  <button id="edit" type="button" aria-label="Personalize message for your love">
-    <span class="edit-icon">💌</span>
-    <span>Personalize Dedication</span>
-  </button>
 
   <div id="toast" class="toast" aria-live="polite"></div>
 
@@ -2142,10 +2136,6 @@
       var panel = document.getElementById("panel");
       function openPanel(on) { panel.classList.toggle("on", on); }
 
-      document.getElementById("edit").addEventListener("click", function (e) {
-        e.stopPropagation();
-        openPanel(!panel.classList.contains("on"));
-      });
       panel.addEventListener("pointerdown", function (e) { e.stopPropagation(); });
 
       var pClose = document.getElementById("p-close");
