@@ -1819,11 +1819,11 @@
       /* {n} = rose piantate, {s} = girasoli */
       function fill(t) { return t.split("{n}").join(roses).split("{s}").join(suns); }
 
-      var toTxt = fill(param("to", "My Love", 40));
+      var toTxt = fill(param("to", "ikra", 40));
       var eyeTxt = fill(param("occasion", "Forever & Always", 40));
       var fromTxt = fill(param("from", "", 40));
       var dedTxt = fill(param("msg",
-        "I planted {n} roses and {s} sunflowers for you.|Not one of them will ever wilt.|Neither will how I feel about you.", 220));
+        "Uzaklarda olsak bile, kalbimde çok özel bir yerin var. ❤️|Umarım bu küçük çiçekler, seni her zaman düşünen birinin olduğunu hatırlatır. 🌸|Aramızda ne kadar mesafe olursa olsun, sen günlerimi biraz daha güzelleştiriyorsun...", 220));
 
       var eye = document.getElementById("eyebrow");
       eye.textContent = eyeTxt;
